@@ -1,0 +1,46 @@
+
+.testimonials-section {
+    margin-top: 3rem;
+    padding: 10px;
+}
+
+.testimonial-wrap {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+  }
+  
+  .testimonial-right, .testimonial-left{
+      width: 500px;
+  }
+  
+  .testimonial-right img {
+    border-radius: 15px;
+}
+
+.testimonials-section p {
+    text-align: justify;
+    line-height: 20px;
+}
+
+.testimonials-section h1 {
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width:420px) {
+
+
+    .testimonial-right img {
+        width: 350px;
+        height: 250px;
+        margin: 10px;
+    }
+
+}
+
+
+
+
+
+
