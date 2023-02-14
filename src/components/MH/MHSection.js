@@ -6,9 +6,7 @@ import './MHSection.css'
 
 import Contact2 from '../contact/Contact2'
 
-import Card1 from '../../assets/card2-1.jpg'
-import Card2 from '../../assets/card2-2.jpg'
-import Card3 from '../../assets/card2-3.jpg'
+import SubCardBg from '../../assets/sub-card-bg.jpg'
 
 
 const MHSection = () => {
@@ -16,67 +14,201 @@ const MHSection = () => {
     <>
 
 <div className="mh-cards-header container">
-                <h1>PALM SPRINGS REHAB OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
-                <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <h1>NATURAL REST HOUSE OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
+                <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
             </div>
 
 <div class="mh-card-wrap">
-<div class="mh-tile"> 
-  <Fade left>
-  <img src={Card1} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH​</h5>
-  <h1>Partial Hospitalizaion Program​</h1>
-  <p class="mh-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
-    <div class="mh-animate-text">
-    {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/mental-health-php">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll> */}
-    </div>
-  </div>
- </div>
 
 <div class="mh-tile"> 
-<Fade top>
-<img src={Card2} alt="Substance Use" loading="lazy"/>
-</Fade>
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
   <div class="mh-text">
-  <h5>MENTAL HEALTH​</h5>
-  <h1>Intensive Outpatient Program</h1>
-  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Palm Springs Rehab.</p>
-  <div class="mh-animate-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Acute Stress Disorder</h1>
+    
+    <div class="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/mental-health-iop">
+        <Link to="/acute-stress-disorder">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
     </div>
+  </div>
+ </div>
 
+
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>ADSD</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/adhd">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
   </div>
  </div>
   
-  <div class="mh-tile"> 
 
-  <Fade right>
-  <img src={Card3} alt="Warehouse Employees" loading="lazy"/>
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
   </Fade>
   <div class="mh-text">
-  <h5>MENTAL HEALTH​</h5>
-  <h1>Outpatient Program</h1>
-  <p class="mh-animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
-  <div class="mh-animate-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Anger Disorder</h1>
+    
+    <div class="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/mental-health-op">
+        <Link to="/anger-disorder">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
-
     </div>
   </div>
  </div>
+
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Anxiety Disorder</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/anxiety">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Bipolar Disorder</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/bipolar-disorder">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Depression</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/depression">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Panic Disorder</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/panic-disorder">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>PTSD</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/anger-disorder">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Schizoaffective Disorder</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/schizoaffective">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+ <div class="mh-tile"> 
+  <Fade left>
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+  </Fade>
+  <div class="mh-text">
+  <h5>MENTAL HEALTH TREATMENT​</h5>
+  <h1>Schizophrenia Disorder</h1>
+    
+    <div class="mh-animate-text">
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/schizophrenia">
+            <button>Learn More</button>
+        </Link>
+    </LinkRoll>
+    </div>
+  </div>
+ </div>
+
+
 </div>
 
 

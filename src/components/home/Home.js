@@ -4,7 +4,7 @@ import InsuranceSection from '../insurance/InsuranceSection';
 import Whoweare from '../Whoweare/Whoweare'
 import ContactForm from '../contact/ContactForm';
 import Team5 from '../../components/team/Team5'
-import Services from "../../components/servicesCards/Cards"
+// import Services from "../../components/servicesCards/Cards"
 
 
 
@@ -12,7 +12,7 @@ const home = () => {
   return (
     <>
     {/* <WhatWeDo /> */}
-    <Services />
+    {/* <Services /> */}
     <Whoweare />
     <Team5 />
     <InsuranceSection />

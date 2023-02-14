@@ -12,8 +12,9 @@
 .sa-tile
 {
   width:250px;
-  height:400px;
+  height:175px;
   margin:10px;
+  text-align: center;
   /* background-color:#444549; */
   display:inline-block;
   background-size:cover;
@@ -48,13 +49,23 @@
   height:calc(100% - 60px);
 }
 
-.sa-tile h1, .sa-tile h5
-{
+
+
+.sa-tile h5 {
+  color: var(--primary-color);
+  font-weight:300;
+  margin-bottom: .5rem;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.sa-tile .sa-text h1 {
   color: rgb(255, 255, 255);
   font-weight:300;
   margin:0;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
+
+
 
 .sa-tile h2
 {
@@ -121,14 +132,25 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   font-family: 'Montserrat', sans-serif;
 }
 
+
+.sa-tile button {
+  padding: .5rem 2rem;
+  font-size: 12px;
+}
+
 @media (max-width: 940px) {
   .sa-card-wrap {
     width: 100%;
   }
 
   .sa-tile { 
-    width: 320px;
-    height:280px;
+    text-align: center;
+    width: 250px;
+    height:170px;
+  }
+
+  .sa-tile h1 {
+    font-size: 1.5rem;
   }
 
 }
