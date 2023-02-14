@@ -14,7 +14,7 @@ const MHSection = () => {
     <>
 
 <div className="mh-cards-header container">
-                <h1>NATURAL REST HOUSE OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
+                <h1>NATURAL REST HOUSE TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
                 <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
             </div>
 

@@ -41,34 +41,6 @@ const Whoweare = () => {
     <Services />
 
 
-    {/* <div className='wrap'>
-        <Fade left>
-            <div className="box-right">
-                <img src={Whoweare3} alt="Conselling Session with a patient" loading="lazy" />
-            </div>
-        </Fade>
-
-        <Fade right>
-            <div className="box left">
-                <p>An evaluation includes:</p>
-                    <ul>
-                        <p>                
-                        <li>
-                        <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
-                        </li><br/>
-                        <li>
-                        <FaRegStar className='star'/> Urine tests and other lab tests.
-                        </li><br/>
-                        <li>
-                        <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
-                        </li>
-                        </p>
-                    </ul>
-                        <br/>
-                        <p>Once a client is assessed, the drug detox process will occur under stringent medical supervision at our treatment facility. Medical supervision and guidance help clients feel safe and comfortable while the body rids itself of drugs and alcohol and provides physical and mental support throughout the withdrawal process. We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.  </p>
-            </div>
-        </Fade>
-    </div> */}
 
 
 
