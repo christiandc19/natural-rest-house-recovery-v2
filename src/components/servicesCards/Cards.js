@@ -1,8 +1,8 @@
 import React from 'react'
 import './Cards.css'
 
-import { Link } from 'react-router-dom'
-import { Link as LinkRoll } from 'react-scroll'
+// import { Link } from 'react-router-dom'
+// import { Link as LinkRoll } from 'react-scroll'
 
 import Fade from 'react-reveal/Fade';
 
@@ -29,13 +29,13 @@ const Cards = () => {
   <div class="text">
   <h1>MENTAL HEALTH TREATMENT​</h1>
   <p class="animate-text">Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
-    <div class="animate-text">
+    {/* <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
-    </div>
+    </div> */}
   </div>
  </div>
 
@@ -47,13 +47,13 @@ const Cards = () => {
   <div class="text">
   <h1>SUBSTANCE ABUSE TREATMENT</h1>
   <p class="animate-text">We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help.</p>
-  <div class="animate-text button">
+  {/* <div class="animate-text button">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
-    </div>
+    </div> */}
   </div>
  </div>
 
@@ -65,13 +65,13 @@ const Cards = () => {
   <div class="text">
   <h1>ADDICTION TREATMENT</h1>
   <p class="animate-text">We offer programs that's tailored to the needs of the client. With the help of our individualized treatment programs, clients can find the healing and support they need.</p>
-  <div class="animate-text button">
+  {/* <div class="animate-text button">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
-    </div>
+    </div> */}
   </div>
  </div>
 
@@ -85,14 +85,13 @@ const Cards = () => {
   <div class="text">
   <h1>EMPLOYMENT ASSISTANCE</h1>
   <p class="animate-text">Our most unique feature sets you up with interview clothes, interview skills, resume assistance, and all the resources you need to get a job with a great company.</p>
-  <div class="animate-text">
+  {/* <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/jobs">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
-
-    </div>
+    </div> */}
   </div>
  </div>
 </div>
