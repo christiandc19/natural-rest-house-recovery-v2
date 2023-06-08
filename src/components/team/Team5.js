@@ -1,5 +1,5 @@
 import React from 'react'
-import './TeamSection.css'
+import './Team5.css'
 import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'
 import Fade from 'react-reveal/Fade';
@@ -8,6 +8,7 @@ import Fade from 'react-reveal/Fade';
 const Team5 = () => {
     return (
         <>
+        <div className='core'>
         <div className='team-section container'>
         <h1>MEET THE CORE</h1>
         <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
@@ -63,7 +64,7 @@ const Team5 = () => {
                 </div>
             </div>
         </div>
-
+        </div>
 
 </>
     )

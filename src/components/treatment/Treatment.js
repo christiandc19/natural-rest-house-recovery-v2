@@ -5,7 +5,6 @@ import './Treatment.css'
 
 import ContactForm from '../contact/ContactForm';
 
-import Wave from '../../assets/waves.svg'
 
 import TreatmentSection from './TreatmentSection';
 
@@ -16,9 +15,6 @@ const Treatment = () => {
 {/* -------------------------------- HERO -------------------------------------- */}
 
         <div className='treatment main-menu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" alt='colum divider' repeat-x />
-            </div>
             <div className="treatment-content">
                 <Fade right>
                     <h1>TREATMENT</h1>

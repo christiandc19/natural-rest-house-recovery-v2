@@ -13,6 +13,7 @@
   
   .testimonial-right, .testimonial-left{
       width: 500px;
+      margin: auto;
   }
   
   .testimonial-right img {
