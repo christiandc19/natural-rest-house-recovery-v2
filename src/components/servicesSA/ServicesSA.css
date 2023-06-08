@@ -1,0 +1,70 @@
+
+  .servicesSA {
+    background: url('../../assets/serviceSA-bg.jpg') no-repeat center center/cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+
+  }
+
+  .servicesSA-content {
+    width: 50%;
+    left: 45%;
+    position: relative;
+    padding: 5rem 0;
+}
+
+.servicesSA-header {
+    text-align: center;
+}
+
+  .servicesSA-content h1 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    padding: 1rem 0;
+  }
+
+  .servicesSA-content p {
+    padding: 1rem 0;
+  }
+
+  .servicesSA-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.servicesSA-flexItem {
+    width: 45%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.servicesSA-icon {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+.servicesSA-btn {
+    text-align: center;
+}
+
+@media  screen and (max-width:1200px) {
+    .servicesSA-flexItem {
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width:940px) {
+    .servicesSA-content {
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+    }
+}

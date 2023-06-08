@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
-import { FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
+import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi'
 import './FooterStyles.css'
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -66,7 +66,7 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
-                    <form>
+                    <div className="col ">
                         <h3>Follow us</h3>
                         {/* <input type="email" placeholder='Enter your email' /> */}
                         {/* <FiMail className='mail-icon' /> */}
@@ -74,10 +74,9 @@ const Footer = () => {
                             <FiInstagram className='social-icon' />
                             <FiFacebook className='social-icon' />
                             <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
+
                         </div>
-                    </form>
+                    </div>
                 </div>
                 <p className='copyright'><p>&copy; 2023 Natural Rest House Recovery. All rights reserved</p></p>
 

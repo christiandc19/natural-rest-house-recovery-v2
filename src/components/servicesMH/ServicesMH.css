@@ -1,0 +1,56 @@
+.servicesMH {
+    height: auto;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.servicesMH-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.servicesMH-flexItem {
+    width: 350px;
+    height: auto;
+    background-color: #23515113;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+
+.servicesMH h1 {
+    font-size: 2rem;
+}
+
+.servicesMH-header h2 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    padding: 1rem;
+    letter-spacing: 5px;
+}
+
+.servicesMH-header h3 {
+    padding: 1rem;
+}
+
+.servicesMH-icon {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+.servicesMH-flexItem h1 {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+
+
+@media  screen and (max-width:750px){
+    .servicesMH-flexItem {
+        width: 100%;
+        margin: 0 1rem;
+    }
+  }

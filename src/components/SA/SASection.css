@@ -52,7 +52,7 @@
 
 
 .sa-tile h5 {
-  color: var(--primary-color);
+  color: white;
   font-weight:300;
   margin-bottom: .5rem;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);

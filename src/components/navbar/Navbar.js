@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo.png'
 import {FiChevronDown } from "react-icons/fi";
+import Topbar from "../../components/topbar/Topbar";
 
 import './NavbarStyles.css'
 
@@ -38,7 +39,11 @@ const Navbar = () => {
     }
 
     return (
-        <div name='top' className='navbar'>
+        <>
+             <Topbar />
+
+        
+        <div className='navbar'>
             <div className="navbar-container">
                 
                  <div className="navbar-logo">
@@ -118,6 +123,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

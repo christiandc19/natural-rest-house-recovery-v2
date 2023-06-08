@@ -1,58 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .hero {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #02263573;
-  }
-  
-  .hero:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/hero-bg.jpg') no-repeat center center/cover;
-    height: 80vh;
-    width: 100%;
-    z-index: -1;
+    background: #000000;
   }
 
 
-.hero .hero-container {
+  .hero .hero-container {
+    height: fit-content;
     top: 30%;
+    left: 8%;
     position: absolute;
     align-items: center;
     text-align: center;
 }
 
-.hero-logo {
-    text-align: center;
-}
 
-
+.slideshow {
+    list-style-type: none;
+  }
+  
+  /** SLIDESHOW **/
+  .slideshow,
+  .slideshow:after { 
+      top: -16px; /*Not sure why I needed this fix*/
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      z-index: 0; 
+  }
+  
+  .slideshow li span { 
+          position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      color: transparent;
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 0;
+      z-index: 0;
+      animation: imageAnimation 30s linear infinite 0s; 
+  }
+  
+  
+  
+  .slideshow li:nth-child(1) span { 
+      background-image: linear-gradient(to top, #0000006c, #00000062), url("../../assets/hero-1.jpg"); 
+  }
+  .slideshow li:nth-child(2) span { 
+    background-image: linear-gradient(to top, #0000006c, #00000062), url("../../assets/hero-2.jpg") ; 
+    animation-delay: 6s; 
+  }
+  .slideshow li:nth-child(3) span { 
+    background-image: linear-gradient(to top, #0000006c, #00000062), url("../../assets/hero-3.jpg"); 
+    animation-delay: 12s; 
+  }
+  .slideshow li:nth-child(4) span { 
+    background-image: linear-gradient(to top, #0000006c, #00000062), url("../../assets/hero-4.jpg"); 
+    animation-delay: 18s; 
+  }
+  .slideshow li:nth-child(5) span { 
+    background-image: linear-gradient(to top, #0000006c, #00000062), url("../../assets/hero-5.jpg"); 
+    animation-delay: 24s; 
+  }
+  
+  
+  
+  @keyframes imageAnimation { 
+      0% { opacity: 0; animation-timing-function: ease-in; }
+      8% { opacity: 1; animation-timing-function: ease-out; }
+      17% { opacity: 1 }
+      25% { opacity: 0 }
+      100% { opacity: 0 }
+  }
+  
+  
+  @keyframes titleAnimation { 
+      0% { opacity: 0 }
+      8% { opacity: 1 }
+      17% { opacity: 1 }
+      19% { opacity: 0 }
+      100% { opacity: 0 }
+  }
+  
+  
+  .no-cssanimations .cb-slideshow li span {
+      opacity: 1;
+  }
 
 
 .hero h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Kanit', sans-serif;        
+    line-height: 5rem;
+    letter-spacing: 5px;
 }
 
 .hero h2 {
     font-size: 1.5rem;
     text-align: center;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-container p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    color: rgb(255, 196, 1);
+    color: gold;
 }
 
 .hero .hero-btn button {
@@ -60,13 +124,76 @@
     margin: auto;
 }
 
+.hero-container span {
+    color: white;
+}
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { 
+    0%   { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @-moz-keyframes fadeIn { 
+    0%   { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes fadeIn { 
+     0%   { opacity: 0; }
+      100% { opacity: 1; } 
+    }
+    
+    .fade-in {
+        opacity:0;  
+        /* make things invisible upon start */
+        
+        -webkit-animation:fadeIn ease-in 1;  
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+    
+        -webkit-animation-fill-mode:forwards;  
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+    
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        animation-duration:1s;
+    }
+    
+    .fade-in.one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    }
+    
+    .fade-in.two {
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay:1.7s;
+    animation-delay: 1.7s; 
+    }
+    
+    .fade-in.three {
+    -webkit-animation-delay: 2.6s;
+    -moz-animation-delay: 2.6s;
+    animation-delay: 2.6s;
+    }
+
+
+    .fade-in.four {
+        -webkit-animation-delay: 3.5s;
+        -moz-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+    }
+    
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+ @media screen and (max-width:940px) {
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        line-height: 2.5rem;
     }
 
     .hero h2 {
@@ -79,6 +206,7 @@
 
     .hero .container {
         top: 30%;
+        left: 0;
     }
     
     .hero .hero-container {
@@ -95,4 +223,4 @@
     height: 120px;
  }
 
-}
+} 

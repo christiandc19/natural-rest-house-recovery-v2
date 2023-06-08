@@ -7,7 +7,8 @@
 .testimonial-wrap {
     display: flex;
     flex-wrap: wrap ;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
   }
   
   .testimonial-right, .testimonial-left{
@@ -16,6 +17,7 @@
   
   .testimonial-right img {
     border-radius: 15px;
+    width: 100%;
 }
 
 .testimonials-section p {
@@ -27,6 +29,13 @@
     margin: 1rem 0;
 }
 
+
+@media screen and (max-width:1200px) {
+    .testimonial-left {
+        width: 100%;
+        padding: 1rem;
+    }
+}
 
 @media screen and (max-width:420px) {
 
