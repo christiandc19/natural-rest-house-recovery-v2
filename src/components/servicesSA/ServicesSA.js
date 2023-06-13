@@ -59,13 +59,23 @@ const ServicesSA = () => {
 
                 </div>
 
+
                 <div className='servicesSA-btn'>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                    <Link to="/mental-health">
+                    <Link to="/substance-abuse">
                         <button>VIEW ALL</button>
                     </Link>
                     </LinkRoll>
                 </div>
+
+                <div className='servicesSA-btn2'>
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500} >
+                    <Link to="/substance-abuse">
+                        <button>VIEW ALL</button>
+                    </Link>
+                    </LinkRoll>
+                </div>
+
 
             </div>
       </div>

@@ -51,4 +51,9 @@
 .mh h1 {
     font-size: 2rem;
 }
+
+.mh .mh-content {
+    text-align: center;
+}
+
 }

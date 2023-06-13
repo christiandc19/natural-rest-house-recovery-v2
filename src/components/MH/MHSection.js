@@ -1,223 +1,337 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
-import { Link as LinkRoll } from 'react-scroll'
-import './MHSection.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
+import "./MHSection.css";
 
-import Contact2 from '../contact/Contact2'
-
-import SubCardBg from '../../assets/sub-card-bg.jpg'
-
+import Contact2 from "../contact/Contact2";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const MHSection = () => {
   return (
     <>
+      <div className="mh-cards-header container">
+        <h1>
+          NATURAL REST HOUSE TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
+          PROGRAMS{" "}
+        </h1>
+        <p>
+          At Natural Rest House Treatment Center, clients receive individual
+          therapy alongside a range of additional treatments, including relapse
+          prevention, trauma therapy, mindfulness meditation, transportation,
+          yoga, and more. We offer support that clients need to allow them to
+          gradually go back to treatment.{" "}
+        </p>
+      </div>
 
-<div className="mh-cards-header container">
-                <h1>NATURAL REST HOUSE TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
-                <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
-            </div>
+      <div class="mh-card-wrap"></div>
 
-<div class="mh-card-wrap">
+      {/* Mental Health Thumbnails */}
 
-<div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Acute Stress Disorder</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/acute-stress-disorder">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+      <div className="top-flex">
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg"
+              alt="Alcoholism"
+              loading="lazy"
+            />
+          </div>
 
+          <div className="top-flex-caption">
+            <h2>DEPRESSION</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/depression">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg"
+              alt="anxiety"
+              loading="lazy"
+            />
+          </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>ADSD</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/adhd">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
-  
+          <div className="top-flex-caption">
+            <h2>ANXIETY</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/anxiety">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Anger Disorder</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/anger-disorder">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg"
+              alt="Panic Disorder"
+              loading="lazy"
+            />
+          </div>
 
+          <div className="top-flex-caption">
+            <h2>PANIC DISORDER</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/panic-disorder">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Anxiety Disorder</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/anxiety">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/fentanyl.jpg"
+              alt="Stress Disorder"
+              loading="lazy"
+            />
+          </div>
 
+          <div className="top-flex-caption">
+            <h2>STRESS DISORDER</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/acute-stress-disorder">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Bipolar Disorder</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/bipolar-disorder">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg"
+              alt="Anger Disorder"
+              loading="lazy"
+            />
+          </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Depression</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/depression">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+          <div className="top-flex-caption">
+            <h2>ANGER DISORDER</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/anger-disorder">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opiate.jpg"
+              alt="ADHD"
+              loading="lazy"
+            />
+          </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Panic Disorder</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/panic-disorder">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+          <div className="top-flex-caption">
+            <h2>ADHD DISORDER</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/adhd">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/meth.jpg"
+              alt="PTSD"
+              loading="lazy"
+            />
+          </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>PTSD</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/anger-disorder">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+          <div className="top-flex-caption">
+            <h2>PTSD DISORDER</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/ptsd">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opioid.jpg"
+              alt="Bipolar Disorder"
+              loading="lazy"
+            />
+          </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Schizoaffective Disorder</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/schizoaffective">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+          <div className="top-flex-caption">
+            <h2>BIPOLAR DISORDER</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/bipolar-disorder">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
- <div class="mh-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="mh-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Schizophrenia Disorder</h1>
-    
-    <div class="mh-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/schizophrenia">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/oxycodone.jpg"
+              alt="Schizoaffective"
+              loading="lazy"
+            />
+          </div>
 
+          <div className="top-flex-caption">
+            <h2>SCHIZOAFFECTIVE</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/schizoaffective">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
 
-</div>
+        <div className="top-flexItem">
+          <div className="top-flex-image">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/prescriptions.jpg"
+              alt="Schizophrenia"
+              loading="lazy"
+            />
+          </div>
 
+          <div className="top-flex-caption">
+            <h2>SCHIZOPHRENIA</h2>
+            <LinkRoll
+              activeClass="active"
+              to="toTop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Link to="/schizophrenia">
+                <p>
+                  LEARN MORE{" "}
+                  <span>
+                    <AiOutlineArrowRight />
+                  </span>
+                </p>
+              </Link>
+            </LinkRoll>
+          </div>
+        </div>
+      </div>
 
-
-<Contact2 />
-
+      <Contact2 />
     </>
+  );
+};
 
-  )
-}
-
-export default MHSection
+export default MHSection;

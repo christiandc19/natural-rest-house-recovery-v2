@@ -46,6 +46,22 @@
     padding: 1rem 0;
 }
 
+.servicesMH-btn2 {
+    display: none;
+}
+
+
+@media screen and (max-width: 940px) {
+    .servicesMH-btn2 {
+        display: block;
+    }
+
+    .servicesMH-btn {
+        display: none;
+    }
+    
+    
+}
 
 
 @media  screen and (max-width:750px){
@@ -53,4 +69,5 @@
         width: 100%;
         margin: 0 1rem;
     }
+
   }

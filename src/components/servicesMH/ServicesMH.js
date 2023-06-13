@@ -15,11 +15,11 @@ import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-
-
 const ServicesMH = () => {
   return (
     <>
+
+    
       <div className='servicesMH'>
             <div className='servicesMH-content'>
 
@@ -86,11 +86,21 @@ const ServicesMH = () => {
 
                 <div className='servicesMH-btn'>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                    <Link to="/substance-abuse">
+                    <Link to="/mental-health">
                         <button>VIEW ALL</button>
                     </Link>
                     </LinkRoll>
                 </div>
+
+                <div className='servicesMH-btn2'>
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500} >
+                    <Link to="/mental-health">
+                        <button>VIEW ALL</button>
+                    </Link>
+                    </LinkRoll>
+                </div>
+
+
 
             </div>
       </div>

@@ -47,8 +47,13 @@
 .group {
     justify-content: center;
     text-align: center;
-    width: 100%;
+    width: 600px;
     margin-bottom: -2rem;
+    margin: auto;
+}
+
+.group img {
+    width: 100%;
 }
 
 @media  screen and (max-width:940px) {
@@ -62,14 +67,13 @@
         font-size: 14px;
     }
 
-    .group img {
-        width: 350px;
-    }
-
-
 }
 
 
 
 
-
+@media  screen and (max-width:700px) {
+    .group {
+        width: 350px;
+    }
+}
