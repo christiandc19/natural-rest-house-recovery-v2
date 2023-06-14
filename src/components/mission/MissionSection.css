@@ -1,4 +1,193 @@
-.mission-section {
+.missionSection {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.missionSectionCaption {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.missionSectionCaption h1 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.missionSectionCaption p {
+    font-size: 16px;
+    padding: 1rem 0;
+}
+
+.missionSectionFlex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.missionSectionLeft {
+    width: 500px;
+}
+
+.missionSectionLeft img {
+    width: 100%;
+}
+
+.missionSectionRight {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.missionSectionRight .rightItem {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 0 1rem 1rem 1rem ;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    -webkit-box-shadow: 3px 6px 16px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 16px -7px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 16px -7px rgba(0,0,0,0.75);
+}
+.rightItem h1 {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.rightItem img {
+    width: 100%;
+    padding: 1rem 0 0 0;
+}
+
+
+@media screen and (max-width: 1240px) {
+    .missionSectionRight {
+        width: 90%;
+        margin: 2rem 0 0 0;
+    }
+
+    .missionSectionRight .rightItem {
+        width: 400px;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 940px) {
+    .missionSectionRight .rightItem {
+        width: 500px;
+        text-align: center;
+    }
+}
+
+
+/* .mission-section {
+    width: 100%;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+}
+
+.mission-section .content {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.mission-section .content p {
+    margin: 1rem 0;
+}
+
+.mission-section p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+.mission-section h1 {
+    padding: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+
+.flex-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.thumbnail img {
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 10px 5px 5px rgb(129, 129, 129);
+    border-radius: 1rem;
+}
+
+.thumbnail p {
+    width: 320px;
+    text-align: center;
+}
+
+.mission-section button {
+    margin: auto;
+}
+
+@media screen and (max-width: 940px) {
+    .mission-section .content {
+        width: 100%;
+    }
+
+    .mission-section h1 {
+        font-size: 25px;
+    }
+
+    .mission-section p {
+        font-size: 15px;
+    }
+
+    .thumbnail img {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mission-section {
     width: 100%;
     position: relative;
     background: rgba(255, 255, 255, 0);
@@ -78,4 +267,4 @@
 
 
 
-
+ */

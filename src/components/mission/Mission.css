@@ -8,13 +8,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #0c0c0c9c;
+    background: #05050570;
   }
   
   .mission:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-mission.jpg') no-repeat center center/cover;
+    background: url('../../assets/menu-bg-mission.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -24,7 +24,8 @@
 .mission .mission-content {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 35%;
+    left: 10%;
     padding: 1rem;
 }
 
@@ -38,6 +39,7 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+        text-align: center;
 }
 
 
@@ -45,6 +47,11 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
+
+.mission .mission-content {
+    left: 0%;
+    width: 100%;
+}
 
 .mission h2 {
     color: white;

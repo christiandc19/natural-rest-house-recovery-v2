@@ -1,19 +1,104 @@
 import React from 'react'
 import './MissionSection.css'
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import ContactForm from '../contact/ContactForm'
+import Mission from '../../assets/mission-img1.jpg'
 
-import Therapy from '../../assets/therapy.jpg'
-import Staff from '../../assets/staff.jpg'
-import Clinic from '../../assets/clinic.jpg'
-import Work from '../../assets/employment-assistance.jpg'
+import Mission1 from '../../assets/mission1.jpg'
+import Mission2 from '../../assets/mission2.jpg'
+import Mission3 from '../../assets/mission3.jpg'
+import Mission4 from '../../assets/mission4.jpg'
 
 
 
 const MissionSection = () => {
     return (
         <>
-        <div className='mission-section container'>
+
+
+
+
+
+
+
+
+<div className='missionSection container'>
+
+        <div className='missionSectionCaption'>
+            <h1> OUR MISSION </h1>
+            <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
+        </div>
+
+        <div className='missionSectionContent '>
+            <div className='missionSectionFlex'>
+                
+                <div className='missionSectionLeft'>
+                        <img src={ Mission } alt="Woman Therapist" loading="lazy"/>
+                </div>
+
+
+            <div className='missionSectionRight'>
+
+                <div className='rightItem '>
+                    <div>
+                        <img src={ Mission1 } alt="Clinic Staff" loading="lazy"/>
+                    </div>
+                    <div>
+                    <h1><span>01. </span>Support <span> Group</span></h1>
+                    <p>Therapy and support groups for either addiction or mental health disorders</p>
+                    </div>
+                </div>
+
+                <div className='rightItem'>
+                    <div>
+                        <img src={ Mission2 } alt="Clinic Staff" loading="lazy"/>
+                    </div>
+                    <div>
+                    <h1><span>02. </span>Compassionate <span> Staff</span></h1>
+                    <p>Compassionate staff that is dedicated to help you with your recovery.</p>
+                    </div>
+                </div>
+
+                <div className='rightItem'>
+                    <div>
+                    <img src={ Mission3 } alt="Clinic Staff" loading="lazy"/>
+                    </div>  
+                    <div>
+                    <h1><span>03. </span>Proven <span> Method</span></h1>
+                    <p>Evidence-based practices that give you the best chance of recovery</p>
+                    </div>
+                </div>
+
+                <div className='rightItem'>
+                    <div>
+                    <img src={ Mission4 } alt="Clinic Staff" loading="lazy"/>
+                    </div>                   
+                    <div>
+                    <h1><span>04. </span>Job <span> Assistance</span></h1>
+                    <p>Employment tools and resources to get you hired.</p>
+                    </div>
+                </div>
+    </div>
+
+        </div>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+        {/* <div className='mission-section container'>
         <h1>YOUR HEALTH, OUR MISSION</h1>
         <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
             <div>
@@ -54,7 +139,7 @@ const MissionSection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <ContactForm />
 

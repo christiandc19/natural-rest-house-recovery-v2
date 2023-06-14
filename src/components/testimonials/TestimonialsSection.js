@@ -14,7 +14,7 @@ const TestimonialsSection = () => {
         <div className='testimonial-wrap'>
                 <Fade right>
                     <div className="testimonial-right">
-                        <img src={Testimonials1} width="550px" height="470px" alt="Conselling Session with a patient" loading="lazy" />
+                        <img src={Testimonials1} alt="Conselling Session with a patient" loading="lazy" />
                     </div>
                 </Fade>
 

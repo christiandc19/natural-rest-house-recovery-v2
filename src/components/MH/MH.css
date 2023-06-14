@@ -3,7 +3,7 @@
 .mh {
     width: 100%;
     height: 80vh;
-    background: rgba(8, 8, 8, 0.521);
+    background: rgba(8, 8, 8, 0.459);
     position: relative;
   }
   
@@ -26,7 +26,7 @@
 .mh .mh-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 35%;
     padding: 1rem;
 }
 
@@ -34,12 +34,7 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
-}
-
-.mh h2 {
-    color: white;
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 
@@ -49,7 +44,7 @@
 @media screen and (max-width:940px) {
 
 .mh h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .mh .mh-content {

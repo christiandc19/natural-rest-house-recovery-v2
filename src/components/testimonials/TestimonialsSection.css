@@ -2,6 +2,7 @@
 .testimonials-section {
     margin-top: 3rem;
     padding: 10px;
+    padding:  3rem 0;
 }
 
 .testimonial-wrap {
@@ -11,11 +12,15 @@
     gap: 1rem;
   }
   
-  .testimonial-right, .testimonial-left{
-      width: 500px;
+  .testimonial-left{
+      width: 50%;
       margin: auto;
   }
   
+.testimonial-right {
+    width: 500px;
+}
+
   .testimonial-right img {
     border-radius: 15px;
     width: 100%;

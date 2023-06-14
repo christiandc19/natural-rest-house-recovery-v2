@@ -65,7 +65,7 @@ const TreatmentSection = () => {
 
     <div className='treatment-section-tile treatment-section-tile2 container'>
 
-        <Fade right>
+        <Fade left>
         <div className='tile-image'>
             <img src={TreatmentImage3} alt="Rehab Team" loading="lazy" />
         </div>
