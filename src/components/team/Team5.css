@@ -58,15 +58,18 @@
     gap: 1rem;
 }
 
+.thumbnail {
+    width: 250px;
+}
+
 .thumbnail img {
+    width: 100%;
     margin: 5px;
-    padding: 5px;
-    box-shadow: 10px 5px 5px rgb(129, 129, 129);
     border-radius: 1rem;
 }
 
 .thumbnail p {
-    width: 320px;
+    width: 100%;
     text-align: center;
 }
 

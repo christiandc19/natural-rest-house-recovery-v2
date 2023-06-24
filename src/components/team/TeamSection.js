@@ -12,110 +12,49 @@ const TeamSection = () => {
             <div>
                 <div className="content">
 
-                    <div className='flex-right'>
+                <div className='flex-right'>
                     <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_1.jpg" width="300" height="250" alt="Team 1" loading="lazy"/>
+                        <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/nicole.jpg" alt="Nicole Scimone Shaver - Operations Director" loading="lazy"/>
                         <div>                   
-                        <p><b>Ashley Shelton</b><br/><i>Clinical Director</i></p>
+                        <p><b></b><br/><i>Operations Director</i></p>
                         </div>
                     </div>
                     </Fade>
 
+                    <Fade bottom>
+                    <div className='thumbnail'>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/floricinda.jpg" alt="Florincinda Zapata - Lead Case Manager" loading="lazy"/>
+                    <p><b>Floricinda Zapata</b><br/><i>Lead Case Manager</i></p>
+                    </div>
+                    </Fade>
+
+
+                    <Fade top>
+                    <div className='thumbnail'>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/robert-masonis-lll.jpg" alt="Robert Masonis lll - BHT" loading="lazy"/>
+                        <p><b> Robert Masonis lll </b><br/><i>Behavioral Health Technician / Med Tech</i></p>  
+                    </div>
+                    </Fade> 
+
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_2.jpg" width="300" height="250" alt="Clinic Staff" loading="lazy"/>
-                    <p><b>Robert Masonis</b><br/><i>Executive Director</i></p>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/michael.jpg" alt="Michael Marquez - Behavioral Health Technician" loading="lazy"/>
+                    <p><b>Michael Marquez</b><br/><i>Behavioral Health Technician</i></p>
                     </div>
                     </Fade>
 
                     <Fade top>
                     <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_3.jpg" width="300" height="250" alt="Bluecross  Logo" loading="lazy"/>
-                    <p><b>Kamau Shabazz</b><br/><i>Lead Case Manager</i></p>
-                    </div>
-                    </Fade>
-
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_4.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Michael Garrett</b><br/><i>Case Manager</i></p>  
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/steve.jpg" alt="Steven DeLara - BHT" loading="lazy"/>
+                        <p><b>Steven DeLara</b><br/><i>Behavioral Health Technician</i></p>  
                     </div>
                     </Fade>                 
 
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_5.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Nicole Shaver</b><br/><i>Case Manager</i></p>  
+                    </div>                
                     </div>
-
-                    </Fade>                          
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_6.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Flori Torres</b><br/><i>Behavioral Health Technician & Medical Technician</i></p>  
-                    </div>
-                    </Fade>                          
-
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_7.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Cynthia Avalos</b><br/><i>Behavioral Health Technician & Medical Technician</i></p>  
-                    </div>
-                    </Fade>                 
-
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_8.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Robert Masonis III</b><br/><i>Behavioral Health Technician</i></p>  
-                    </div>
-
-                    </Fade>                          
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_9.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>James Kaufman</b><br/><i>Behavioral Health Technician</i></p>  
-                    </div>
-                    </Fade>  
-
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_10.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Jason Young</b><br/><i>Behavioral Health Technician</i></p>  
-                    </div>
-                    </Fade>                 
-
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_11.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Katrina Diaz</b><br/><i>Behavioral Health Technician</i></p>  
-                    </div>
-
-                    </Fade>                          
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_12.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Lupe Dominguez</b><br/><i>Licensed Vocational Nurse</i></p>  
-                    </div>
-                    </Fade>  
-
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_13.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Greg Hollis</b><br/><i>Licensed Vocational Nurse</i></p>  
-                    </div>
-
-                    </Fade>                          
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_14.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Destany Cota</b><br/><i>Licensed Vocational Nurse</i></p>  
-                    </div>
-                    </Fade>  
-
-                    </div>
-                </div>
+                    
             </div>
         </div>
 

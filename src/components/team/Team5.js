@@ -5,6 +5,7 @@ import { Link as LinkRoll } from 'react-scroll'
 import Fade from 'react-reveal/Fade';
 
 
+
 const Team5 = () => {
     return (
         <>
@@ -18,41 +19,43 @@ const Team5 = () => {
                     <div className='flex-right'>
                     <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_1.jpg" width="300" height="250" alt="Team 1" loading="lazy"/>
+                        <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/nicole.jpg" alt="Nicole Scimone Shaver - Operations Director" loading="lazy"/>
                         <div>                   
-                        <p><b>Ashley Shelton</b><br/><i>Clinical Director</i></p>
+                        <p><b></b><br/><i>Operations Director</i></p>
                         </div>
                     </div>
                     </Fade>
 
+                    <Fade bottom>
+                    <div className='thumbnail'>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/floricinda.jpg" alt="Florincinda Zapata - Lead Case Manager" loading="lazy"/>
+                    <p><b>Floricinda Zapata</b><br/><i>Lead Case Manager</i></p>
+                    </div>
+                    </Fade>
+
+
+                    <Fade top>
+                    <div className='thumbnail'>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/robert-masonis-lll.jpg" alt="Robert Masonis lll - BHT" loading="lazy"/>
+                        <p><b> Robert Masonis lll </b><br/><i>Behavioral Health Technician / Med Tech</i></p>  
+                    </div>
+                    </Fade> 
+
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_2.jpg" width="300" height="250" alt="Clinic Staff" loading="lazy"/>
-                    <p><b>Robert Masonis</b><br/><i>Executive Director</i></p>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/michael.jpg" alt="Michael Marquez - Behavioral Health Technician" loading="lazy"/>
+                    <p><b>Michael Marquez</b><br/><i>Behavioral Health Technician</i></p>
                     </div>
                     </Fade>
 
                     <Fade top>
                     <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_3.jpg" width="300" height="250" alt="Bluecross  Logo" loading="lazy"/>
-                    <p><b>Kamau Shabazz</b><br/><i>Lead Case Manager</i></p>
-                    </div>
-                    </Fade>
-
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_4.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Michael Garrett</b><br/><i>Case Manager</i></p>  
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/steve.jpg" alt="Steven DeLara - BHT" loading="lazy"/>
+                        <p><b>Steven DeLara</b><br/><i>Behavioral Health Technician</i></p>  
                     </div>
                     </Fade>                 
 
-                    <Fade bottom>
-                    <div className='thumbnail'>
-                    <img src="https://natural-rest-house.s3.us-west-1.amazonaws.com/team_5.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p><b>Nicole Shaver</b><br/><i>Case Manager</i></p>  
-                    </div>
-                    </Fade>
                     </div>
 
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
