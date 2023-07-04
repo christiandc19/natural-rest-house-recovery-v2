@@ -54,6 +54,12 @@ input {
     resize: none;
   }
 
+  .textarea2 textarea {
+    border: none;
+    color: rgb(53, 82, 42);
+    text-align: center;
+  }
+
   .get_form_inner_text h3 {
     color: var(--primary-color);
     font-size: 26px;
@@ -114,17 +120,17 @@ input {
     margin: 1rem auto;
     }
 
-    /* iframe {
+    .hidden {
+      /* display: none; */
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
       width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
-      justify-content: center;
-    }
+      margin: auto;
+      z-index: 2;
+  }
 
-    .iframe {
-      width: 850px;
-    } */
+
   
 
   @media screen and (max-width: 940px) {
