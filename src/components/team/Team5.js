@@ -21,7 +21,7 @@ const Team5 = () => {
                     <div className='thumbnail'>
                         <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/nicole.jpg" alt="Nicole Scimone Shaver - Operations Director" loading="lazy"/>
                         <div>                   
-                        <p><b></b><br/><i>Operations Director</i></p>
+                        <p><b>Nicole Shaver</b><br/><i>Operations Director</i></p>
                         </div>
                     </div>
                     </Fade>

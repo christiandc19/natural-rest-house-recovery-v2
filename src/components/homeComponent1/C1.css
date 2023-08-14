@@ -9,11 +9,11 @@
   .c1:before {
     content: '';
     position: absolute;
-    background: url('../../assets/bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/bg1.png') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.07;
+    opacity: 0.1;
     
   }
 
