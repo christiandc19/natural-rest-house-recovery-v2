@@ -22,7 +22,7 @@ const ContactForm = () => {
                 feedbackEl.setAttribute("class", "feedback");
                 setTimeout(function() {
                 feedbackEl.setAttribute("class", "feedback hidden");
-                }, 4000);
+                }, 3000);
         
         
 
@@ -58,6 +58,10 @@ const ContactForm = () => {
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
             <p><BsFillPinMapFill /> 79100 Ocotillo Dr La Quinta, CA 92253</p>
+    </div>
+
+    <div class="get_form_inner2">
+            <p><BsFillPinMapFill /> 1045 E 20th St Los Angeles, Ca 90011</p>
     </div>
 
 </div>

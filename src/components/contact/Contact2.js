@@ -13,8 +13,19 @@ const ContactForm = () => {
         e.preventDefault();
 
 
+
+
+                // Popup message after send button is clicked
+                const feedbackEl = document.querySelector(".feedback");
+                feedbackEl.setAttribute("class", "feedback");
+                setTimeout(function() {
+                feedbackEl.setAttribute("class", "feedback hidden");
+                }, 3000);
+
+
+
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -40,9 +51,11 @@ const ContactForm = () => {
 
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
-          <div class="topic">Address</div><br/>
+          <div class="topic">Locations</div><br/>
           <div class="text-one">79100 Ocotillo Dr</div>
-          <div class="text-two">La Quinta, CA 92253</div>
+          <div class="text-two">La Quinta, CA 92253</div><br/>
+          <div class="text-one">1045 E 20th Street</div>
+          <div class="text-two">Los Angeles, Ca 90011</div>
         </div>
 
         <div class="phone details">
@@ -69,13 +82,21 @@ const ContactForm = () => {
         <input type="text" name='email' placeholder='Your Email' required />
         </div>
         <div class="input-box">
-        <input type="text" name='email' placeholder='Your Phone' required />
+        <input type="text" name='phone' placeholder='Your Phone' required />
+        </div>
+        <div class="input-box">
+        <input type="text" name='subject' placeholder='Subject' required />
         </div>
         <div class="input-box message-box">
         <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
 
         </div>
         <input className="contact-btn" type="submit" value="Submit" />
+
+        <div className="textarea2 feedback hidden">
+            <textarea name="message2" cols="30" rows="3" required>Message Sent to Natural Rest House!</textarea>
+        </div>
+
       </form>
     </div>
     </div>

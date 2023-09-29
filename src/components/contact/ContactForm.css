@@ -4,7 +4,7 @@
     height: auto;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
   }
   
@@ -96,17 +96,17 @@ input {
 
   .contact-cards-container {
     flex-wrap: wrap;
-    width: 330px;
+    width: auto;
+    margin: auto 0;
   }
 
   .get_form_inner2 {
     display: block;
-    width: 300px;
-    height: 150px;
-    padding: 2rem 1rem;
+    width: auto;
+    padding:  1rem;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #717477;
-    margin: 4rem 1rem 1rem 1rem;
+    margin: 1rem;
   }
 
   .get_form_inner2  h2 {
@@ -117,7 +117,6 @@ input {
     .get_form_inner2 p, .get_form_inner2 a {
     color: rgb(39, 38, 38);
     text-align: center;
-    margin: 1rem auto;
     }
 
     .hidden {
@@ -134,12 +133,15 @@ input {
   
 
   @media screen and (max-width: 940px) {
+
+    .contact-cards-container {
+      width: 80%;
+      padding: 2rem 0;
+    }
+
     .get_form_inner {
-        margin: 4rem 1rem 2rem 1rem;
+        width: 100%;
       }
 
-      iframe {
-        display: none;
-      }
     }
   
