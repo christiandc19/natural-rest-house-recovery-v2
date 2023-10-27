@@ -2,12 +2,12 @@ import React from 'react'
 import './MissionSection.css'
 // import Fade from 'react-reveal/Fade';
 import ContactForm from '../contact/ContactForm'
-import Mission from '../../assets/mission-img1.jpg'
+import Mission from '../../assets/mission-img1.webp'
 
-import Mission1 from '../../assets/mission1.jpg'
-import Mission2 from '../../assets/mission2.jpg'
-import Mission3 from '../../assets/mission3.jpg'
-import Mission4 from '../../assets/mission4.jpg'
+import Mission1 from '../../assets/mission1.webp'
+import Mission2 from '../../assets/mission2.webp'
+import Mission3 from '../../assets/mission3.webp'
+import Mission4 from '../../assets/mission4.webp'
 
 
 

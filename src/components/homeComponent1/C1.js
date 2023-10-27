@@ -6,11 +6,6 @@ import Fade from 'react-reveal/Fade';
 import Component1 from '../../assets/c1.jpg'
 
 
-
-
-
-
-
 const C1 = () => {
   return (
 <>
