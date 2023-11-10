@@ -29,28 +29,12 @@ const TeamSection = () => {
                     </div>
                     </Fade>
 
-
-                    <Fade top>
-                    <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/robert-masonis-lll.jpg" alt="Robert Masonis lll - BHT" loading="lazy"/>
-                        <p><b> Robert Masonis lll </b><br/><i>Behavioral Health Technician / Med Tech</i></p>  
-                    </div>
-                    </Fade> 
-
-
                     <Fade bottom>
                     <div className='thumbnail'>
                     <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/michael.jpg" alt="Michael Marquez - Behavioral Health Technician" loading="lazy"/>
                     <p><b>Michael Marquez</b><br/><i>Behavioral Health Technician</i></p>
                     </div>
-                    </Fade>
-
-                    <Fade top>
-                    <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/steve.jpg" alt="Steven DeLara - BHT" loading="lazy"/>
-                        <p><b>Steven DeLara</b><br/><i>Behavioral Health Technician</i></p>  
-                    </div>
-                    </Fade>                 
+                    </Fade>                
 
                     </div>                
                     </div>
