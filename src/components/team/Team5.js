@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'
 import Fade from 'react-reveal/Fade';
 
+import Destany from '../../assets/destany_cota.png'
 
 
 const Team5 = () => {
@@ -40,6 +41,13 @@ const Team5 = () => {
                     </div>
                     </Fade>
         
+                    <Fade bottom>
+                    <div className='thumbnail'>
+                    <img src={Destany} alt="Destany Cota - Behavioral Health Technician" loading="lazy"/>
+                    <p><b>Destany Cota</b><br/><i>LVN Lead</i></p>
+                    </div>
+                    </Fade>  
+
                     </div>
 
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -47,6 +55,8 @@ const Team5 = () => {
                         <button>Learn More</button>
                     </Link>
                     </LinkRoll>
+
+
 
                 </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import './TeamSection.css'
 import Fade from 'react-reveal/Fade';
 
+import Destany from '../../assets/destany_cota.png'
 
 const TeamSection = () => {
     return (
@@ -34,7 +35,14 @@ const TeamSection = () => {
                     <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/michael.jpg" alt="Michael Marquez - Behavioral Health Technician" loading="lazy"/>
                     <p><b>Michael Marquez</b><br/><i>Behavioral Health Technician</i></p>
                     </div>
-                    </Fade>                
+                    </Fade>          
+
+                    <Fade bottom>
+                    <div className='thumbnail'>
+                    <img src={Destany} alt="Destany Cota - Behavioral Health Technician" loading="lazy"/>
+                    <p><b>Destany Cota</b><br/><i>LVN Lead</i></p>
+                    </div>
+                    </Fade>        
 
                     </div>                
                     </div>
