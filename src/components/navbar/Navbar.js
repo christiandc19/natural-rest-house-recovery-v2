@@ -103,8 +103,6 @@ const Navbar = () => {
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/testimonials`}> Testimonials </NavLink> </li>
-                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li> */}
-
                         </ul>
                     </li>
 
@@ -115,6 +113,7 @@ const Navbar = () => {
                     {/* <li><Link to='/residence'>Residence</Link> </li> */}
                     <li><Link to='/jobs'>Jobs Program</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
+                    <li><Link to='/community-links'>Community Links</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>
 

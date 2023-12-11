@@ -9,6 +9,7 @@ import TreatmentPage from './routes/TreatmentPage'
 import TestimonialPage from './routes/TestimonialPage'
 import MissionPage from './routes/MissionPage'
 import InsurancePage from './routes/InsurancePage'
+import CommunityPage from './routes/CommunityPage'
 import ContactPage from './routes/ContactPage'
 
 import COCAINE from './routes/COCAINE';
@@ -85,6 +86,7 @@ ReactDOM.render(
 
 
       <Route exact path='/insurance' element={<InsurancePage />} />
+      <Route exact path='/community-links' element={<CommunityPage />} />
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,
